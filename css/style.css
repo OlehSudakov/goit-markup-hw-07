@@ -1189,7 +1189,9 @@ position: relative;
 .container {
         max-width: 768px;
     }
-
+.mobile-menu-open{
+    display: none;
+}
 .header-menu {
     margin-left: 120px;
 }
@@ -1391,7 +1393,12 @@ height: 24px;
 .container {
     max-width: 1200px;
 }
-
+.mobile-menu-open{
+    display: none;
+}
+.contakt-adaptive{
+    margin-left: auto;
+}
 .header-menu {
     margin-left: 76px;
 }
