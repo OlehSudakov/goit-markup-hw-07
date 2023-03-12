@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBSTUDIO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="container">
             <div class="div-header">
             <div class="header-container">
@@ -32,12 +32,46 @@
                     <li class="contakt-item"><a class="contact link link-hover" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="contakt-item"><a class="contact link link-hover" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
+                <button class="mobile-menu-open "
+          data-menu-open
+          type="button">
+            <svg width="32" height="32" class="mobile-menu-open-icon">
+            
+                <use class="menu" href="./images/symbol-defs.svg#icon-menu-icon-1"></use>
+                
+            </svg>
+        </button>
             </nav>
             </div>
+            <div class="mobile-menu " data-menu>
+                <div class="container mobile-menu-container">
+                <button class="mobile-menu-close-btn" data-menu-close>
+                    <svg class="mobile-menu-close-icon" width="8" height="8">
+                        <use href="./images/symbol-defs.svg#icon-christ-1"></use>
+                    </svg>
+    
+                </button>
+                <ul class="mobaile-nav list">
+                    <li class="mobaile-nav-item"><a class=" mobile-link  link" href="./index.html">Studio</a></li>
+                    <li class="mobaile-nav-item"><a class=" mobile-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="mobaile-nav-item"><a class=" mobile-link link" href="# ">Contacts</a></li>
+                </ul>
+                <ul class="mobaile-contact list">
+                    <li class="mobaile-contact-item-tel"><a class="mobaile-contact-tel" href="tel:+110001111111"></a>+11 (000) 111-11-11</li>
+                    <li class="mobaile-contact-item-mail"><a class="mobaile-contact-mail" href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
+                </ul>
+                <ul class="social-list list">
+                <li class="team-soc-item"><a class="icon-a" href="#"><svg width="24" height="24" class="svg-ivons"><use href="./images/symbol-defs.svg#icon-instagram-2-2-1"></use></svg></a></li>
+                <li class="team-soc-item"><a class="icon-a" href="#"><svg width="24" height="24" class="svg-ivons"><use href="./images/symbol-defs.svg#icon-twitter-1-1"></use></svg></a></li>
+                <li class="team-soc-item"><a class="icon-a" href="#"><svg width="24" height="24" class="svg-ivons"><use href="./images/symbol-defs.svg#icon-facebook-1-1"></use></svg></a></li>
+                <li class="team-soc-item"><a class="icon-a" href="#"><svg width="24" height="24" class="svg-ivons"><use href="./images/symbol-defs.svg#icon-linkedin-1-1"></use></svg></a></li>
+            </ul>
+                </div>
+
         </div>
             
-     </header> -->
-    <!-- <main class="hero">  
+     </header>
+    <main class="hero">  
         
         <section class="section-one section">
           
@@ -101,12 +135,13 @@
                    
                 </div>
             </div>
-        </section> -->
+        </section>
   
          <section class="hero-section section"> 
             
             
             <div class="container">
+                
                 <ul class="container-section-two">
                     
                 <li class="section-two-li">
@@ -116,8 +151,8 @@
                             
                     </div>
                     
-                    <h3 class="hero-title">Strategy</h3>
-                    <p class="hero-text">
+                    <h3 class="hero-title-peage">Strategy</h3>
+                    <p class="hero-text-peage">
                         Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.
                      </p>
@@ -129,8 +164,8 @@
                         height="64px"> 
                                 <use href="./images/symbol-defs.svg#icon-icon1"></use>
                             </svg></div>
-                    <h3 class="hero-title">Punctuality</h3>
-                    <p class="hero-text">
+                    <h3 class="hero-title-peage">Punctuality</h3>
+                    <p class="hero-text-peage">
                         Bring the key message to the brand's audience 
                         for the best price within the shortest possible time.
                     </p>
@@ -141,8 +176,8 @@
                         height="64px"> 
                                 <use href="./images/symbol-defs.svg#icon-con"></use>
                             </svg></div>
-                    <h3 class="hero-title">Diligence</h3>
-                    <p class="hero-text">
+                    <h3 class="hero-title-peage">Diligence</h3>
+                    <p class="hero-text-peage">
                         Research and confirm brands that present the
                          strongest digital growth opportunities and minimize risk.
                     </p>
@@ -153,8 +188,8 @@
                         height="64px"> 
                                 <use href="./images/symbol-defs.svg#icon-icon2"></use>
                             </svg></div>
-                    <h3 class="hero-title">Technologies</h3>
-                    <p class="hero-text">
+                    <h3 class="hero-title-peage">Technologies</h3>
+                    <p class="hero-text-peage">
                         Design practice focused on digital experiences.
                          We bring forth a deep passion for problem-solving.
                     </p>
@@ -162,22 +197,22 @@
             </ul>
         </div>
         </section>
-        <!-- <section class="section-three">
+        <section class="section-three">
             <div class="container">
             <h2 class="description-one">What are we doing</h2>
             <ul class="img-card">
                 <li class="img-li">
-                    <img src="./images/monitor.jpg" alt="monitor" width="360">
+                    <img src="./images/monitor.jpg" srcset="./images/Tel.jpg 1x, ./images/Tel2x.jpg 2x" alt="monitor" width="360">
                 </li>
                 <li class="img-li">
-                    <img src="./images/telefony.jpg" alt="telefony" width="360">
+                    <img src="./images/telefony.jpg" srcset="./images/Slide1.jpg 1x, ./images/Slide2x.jpg 2x" alt="telefony" width="360">
                 </li>
                  <li class="img-li">
-                    <img src="./images/phone.jpg" alt="iphome" width="360">
+                    <img src="./images/phone.jpg" srcset="./images/Phome1.jpg 1x, ./images/Phome2x.jpg 2x" alt="iphome" width="360">
                 </li>
             </ul>
             </div>
-        </section> -->
+        </section>
         <section class="section-two">
             <div>
             
@@ -186,8 +221,10 @@
             
             <h2 class="description">Our Team </h2>
             <ul class="img-card-two">
-                <li class="img-li-two">
-                    <img src="./images/markguerrero.jpg" alt="Mark Guerrero" width="264">
+                <li class="img-li-two"> 
+                    
+                    <img  src="./images/markguerrero.jpg" srcset="./images/Mark(1).jpg 1x, ./images/Mark2x(1).jpg 2x " alt="Mark Guerrero" width="264">
+                    <div class="div-cintainer">
                     <h3 class="hero-title two">Mark Guerrero</h3>
                     <p class="hero-text hero-text-two">Product Designer</p>
                     <ul class="icon-ul">
@@ -196,10 +233,11 @@
                     <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
                     <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
                     </ul>
+                </div>
                     </li>
-
                     <li class="img-li-two">
-                    <img src="./images/tomford.jpg" alt="Tom Ford" width="264">
+                    <img src="./images/tomford.jpg" srcset="./images/Tom1(1).jpg 1x, ./images/Tom2x(1).jpg 2x " alt="Tom Ford" width="264">
+                    <div class="div-cintainer">
                     <h3 class="hero-title two">Tom Ford</h3>
                     <p class="hero-text hero-text-two">Frontend Developer</p>
                     <ul class="icon-ul">
@@ -208,10 +246,12 @@
                      <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
                      <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
                     </ul>
+                </div>
                     </li>
 
                     <li class="img-li-two">
-                    <img src="./images/camilagarcia.jpg" alt="Camila Garcia" width="264">
+                    <img src="./images/camilagarcia.jpg" srcset="./images/Gamila(1).jpg 1x, ./images/Gamila2x(1).jpg 2x  alt="Camila Garcia" width="264">
+                    <div class="div-cintainer">
                     <h3 class="hero-title two">Camila Garcia</h3>
                     <p class="hero-text hero-text-two">Marketing</p>
                     <ul class="icon-ul">
@@ -220,10 +260,12 @@
                      <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
                      <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
                        </ul>
+                    </div>
                     </li>
 
                      <li class="img-li-two">
-                    <img src="./images/danielwilson.jpg" alt="Daniel Wilson" width="264">
+                    <img src="./images/danielwilson.jpg" srcset="./images/Daniel(1).jpg 1x, ./images/Daniel2x(1).jpg 2x  alt="Daniel Wilson" width="264">
+                    <div class="div-cintainer">
                     <h3 class="hero-title two">Daniel Wilson</h3>
                     <p class="hero-text hero-text-two">UI Designer</p>
                     <ul class="icon-ul">
@@ -232,6 +274,7 @@
                       <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
                       <li><a class="icon-a" href="#"><svg width="16" height="16" class="icon icon-instagram-2-1"><use class="iut" href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
                        </ul>
+                    </div>
                 </li>
 
             </ul>
@@ -270,7 +313,7 @@
                 </ul>
             </div>
         </section>
-    <!-- </main> -->
+    </main>
     
     <footer class="footer-one">
         <div class="container">
@@ -310,6 +353,7 @@
         </div>
     </footer>
    <script src="./js/modal.js"></script>
+   <script src="./js/mobaile.menu.js"></script>
    
 
 </body>

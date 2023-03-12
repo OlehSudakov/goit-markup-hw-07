@@ -180,6 +180,10 @@
 <path fill="none" stroke="#404bbf" style="stroke: var(--color2, #404bbf)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.5" d="M4 1.25h24c1.519 0 2.75 1.231 2.75 2.75v24c0 1.519-1.231 2.75-2.75 2.75h-24c-1.519 0-2.75-1.231-2.75-2.75v-24c0-1.519 1.231-2.75 2.75-2.75z"></path>
 </symbol>
 
+<symbol id="icon-menu-icon-1" viewBox="0 0 38 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.0875" d="M3.663 28.338h30.927M3.663 15.999h30.927M3.663 3.66h30.927"></path>
+</symbol>
+
 
 </defs>
 </svg>
